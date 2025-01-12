@@ -41,13 +41,13 @@ const Navbar = async () => {
               }}>
                 <button type="submit">Login with GitHub</button>
               </form>
-              <form action={async () => {
+              {/* <form action={async () => {
                 "use server";
 
                 await signIn('google');
               }}>
                 <button type="submit">Login with Google</button>
-              </form>
+              </form> */}
             </>
           )}
 
