@@ -18,6 +18,12 @@ const StartupForm = () => {
   const { toast } = useToast();
   const router = useRouter();
 
+  // toast({
+  //   title: "Error",
+  //   description: "Please check your inputs and try again",
+  //   variant: "destructive",
+  // });
+
   const handleFormSubmit = async (prevState: any, formData: FormData) => {
     try {
       const formValues = {
